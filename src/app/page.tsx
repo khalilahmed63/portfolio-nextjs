@@ -2,6 +2,9 @@
 import { FaInstagram, FaLinkedinIn, FaReact, FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
+import { SiJavascript } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -202,40 +205,40 @@ export default function Home() {
           <div className="my-10">
             <div className="flex flex-wrap justify-evenly w-full">
               <div className="mt-4">
-                <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
+                <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <FaReact
                     size={60}
                     className="text-[#61DBFB] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
-                  React
+                  React js
                 </h1>
               </div>
               <div className="mt-4">
-                <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
-                  <FaReact
+                <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
+                  <SiNextdotjs
                     size={60}
                     className="text-[#61DBFB] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
-                  React
+                  Next js
                 </h1>
               </div>
               <div className="mt-4">
-                <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
-                  <FaReact
+                <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
+                  <IoLogoJavascript
                     size={60}
                     className="text-[#61DBFB] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
-                  React
+                  ES6 (Javascript)
                 </h1>
               </div>
               <div className="mt-4">
-                <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
+                <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <FaReact
                     size={60}
                     className="text-[#61DBFB] group-hover:text-white"
