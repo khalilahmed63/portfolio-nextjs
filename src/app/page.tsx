@@ -146,12 +146,12 @@ export default function Home() {
                   </div>
                   <div className="flex mb-10">
                     <p className="text-white font-bold w-[50%]">
-                      Address :<span className=" text-gray-400">hyderabad</span>
+                      Address :<span className=" text-gray-400">Hyderabad</span>
                     </p>
                     <p className="text-white font-bold w-[50%]">
                       Language :
                       <span className=" text-gray-400">
-                        English, Urdu, Sindhi
+                        English, Urdu, Hindi, Sindhi
                       </span>
                     </p>
                   </div>
@@ -203,7 +203,7 @@ export default function Home() {
         <div className=" w-full ">
           <div className=" text-2xl items-center justify-center text-center">
             <h2 className="-mt-14 font-bold text-3xl text-white tracking-widest">
-              MY <span className="text-[#ffb400]">SkILLS</span>
+              MY <span className="text-[#ffb400]">SKILLS</span>
             </h2>
           </div>
           <div className="my-10">
@@ -223,7 +223,7 @@ export default function Home() {
                 <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <SiNextdotjs
                     size={60}
-                    className="text-[#61DBFB] group-hover:text-white"
+                    className="text-[#A243E8] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
@@ -234,7 +234,7 @@ export default function Home() {
                 <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <TbBrandTypescript
                     size={60}
-                    className="text-[#61DBFB] group-hover:text-white"
+                    className="text-[#007acc] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
@@ -245,7 +245,7 @@ export default function Home() {
                 <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <IoLogoJavascript
                     size={60}
-                    className="text-[#61DBFB] group-hover:text-white"
+                    className="text-[#F0DB4F] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
@@ -258,7 +258,7 @@ export default function Home() {
                 <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <TbBrandTailwind
                     size={60}
-                    className="text-[#61DBFB] group-hover:text-white"
+                    className="text-[#36B7F0] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
@@ -269,7 +269,7 @@ export default function Home() {
                 <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <BsBootstrapFill
                     size={60}
-                    className="text-[#61DBFB] group-hover:text-white"
+                    className="text-[#563d7c] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
@@ -280,7 +280,7 @@ export default function Home() {
                 <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <IoLogoHtml5
                     size={60}
-                    className="text-[#61DBFB] group-hover:text-white"
+                    className="text-[#e34c26] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
@@ -291,7 +291,7 @@ export default function Home() {
                 <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <IoLogoCss3
                     size={60}
-                    className="text-[#61DBFB] group-hover:text-white"
+                    className="text-[#264de4] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
@@ -303,16 +303,16 @@ export default function Home() {
         </div>
       </div>
       <div className="max-w-screen-2xl min-h-screen px-5 md:px-32  mx-auto flex items-cente">
-        <div className=" w-full ">
-          <div className=" text-2xl items-center justify-center text-center">
-            <h2 className="-mt-14 font-bold text-3xl text-white tracking-widest">
+        <div className="w-full ">
+          <div className="text-2xl items-center justify-center text-center">
+            <h2 className="pb-6 font-bold text-3xl text-white tracking-widest">
               EXPERIENCE & <span className="text-[#ffb400]">EDUCATION</span>
             </h2>
           </div>
           <div className="my-10">
             <div className="md:flex">
               <div className="w-[50%]">
-                <p className="pb-6 font-bold text-2xl text-white">.Education</p>
+                <p className=" font-bold text-2xl text-white">.Education</p>
                 <div className="mt-16 pr-2 pb-2 border-b">
                   <p className=" font-bold text-base text-white">
                     BACHELOR OF COMPUTER SCIENCE
@@ -324,30 +324,30 @@ export default function Home() {
                 </div>
                 <div className="mt-16 pr-2 pb-2 border-b">
                   <p className=" font-bold text-base text-white">
-                    Oracle(ERP) 6 month traning
+                    Oracle(ERP) oracle data base 6 month traning
                   </p>
                   <p className=" text-base text-gray-500">
                     sep-2020 - Mar-2020
                   </p>
                   <p className="my-6 text-base text-white">
-                    (IMCS) Institute of Mathematics & Computer Science
+                    (IMCS) Institute of mathematics & computer science
                   </p>
                 </div>
                 <div className="mt-16 pr-2 pb-2 border-b">
                   <p className=" font-bold text-base text-white">
-                    (php) Web Development 4 Month Traning
+                    Web development 4 Month Traning
                   </p>
                   <p className=" text-base text-gray-500">
                     Feb-2022 - May-2022
                   </p>
                   <p className="my-6 text-base text-white">
-                    (HIST) Hidaya Institute of Science & technology
+                    (HIST) Hidaya institute of science & technology
                   </p>
                 </div>
               </div>
               <div className="pl-5 w-[50%]">
-                <p className="pb-6 font-bold text-2xl text-white">
-                  .Professional Experience
+                <p className="font-bold text-2xl text-white">
+                  .Professional experience
                 </p>
                 <div className="mt-16 pr-2 pb-2 border-b">
                   <p className=" font-bold text-base text-white">
@@ -357,7 +357,7 @@ export default function Home() {
                     Feb-2022 - May-2022
                   </p>
                   <p className="my-6 text-base text-white">
-                    Full-Stack Developer
+                    Web developer developer
                   </p>
                 </div>
                 <div className="mt-16 pr-2 pb-2 border-b">
@@ -366,7 +366,7 @@ export default function Home() {
                     Aug-2020 - jan-2021
                   </p>
                   <p className="my-6 text-base text-white">
-                    Front-End Developer
+                    Front-end web developer
                   </p>
                 </div>
                 <div className="mt-16 pr-2 pb-2 border-b">
