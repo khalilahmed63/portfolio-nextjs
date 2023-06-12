@@ -2,8 +2,12 @@
 import { FaInstagram, FaLinkedinIn, FaReact, FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
-import { SiJavascript } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { TbBrandTailwind } from "react-icons/tb";
+import { BsBootstrapFill } from "react-icons/bs";
+import { IoLogoHtml5 } from "react-icons/io";
+import { IoLogoCss3 } from "react-icons/io";
+import { TbBrandTypescript } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io";
 import Image from "next/image";
 import Link from "next/link";
@@ -38,7 +42,7 @@ export default function Home() {
               <div className="mr-8">
                 <Link href={"https://github.com/khalilahmed63"} target="_blank">
                   <BsGithub
-                    size={25}
+                    size={30}
                     className="text-white hover:scale-125 hover:-translate-y-1 duration-300 "
                   />
                 </Link>
@@ -49,7 +53,7 @@ export default function Home() {
                   target="_blank"
                 >
                   <FaLinkedinIn
-                    size={25}
+                    size={30}
                     className="text-white hover:scale-125 hover:-translate-y-1 duration-300"
                   />
                 </Link>
@@ -60,7 +64,7 @@ export default function Home() {
                   target="_blank"
                 >
                   <FaFacebookF
-                    size={25}
+                    size={30}
                     className="text-white hover:scale-125 hover:-translate-y-1 duration-300"
                   />
                 </Link>
@@ -71,7 +75,7 @@ export default function Home() {
                   target="_blank"
                 >
                   <FaInstagram
-                    size={25}
+                    size={30}
                     className="text-white hover:scale-125 hover:-translate-y-1 duration-300"
                   />
                 </Link>
@@ -82,7 +86,7 @@ export default function Home() {
                   target="_blank"
                 >
                   <FaTwitter
-                    size={25}
+                    size={30}
                     className="text-white hover:scale-125 hover:-translate-y-1 duration-300"
                   />
                 </Link>
@@ -203,8 +207,8 @@ export default function Home() {
             </h2>
           </div>
           <div className="my-10">
-            <div className="flex flex-wrap justify-evenly w-full">
-              <div className="mt-4">
+            <div className="mt-6 w-full grid grid-cols-4 gap-4">
+              <div className="mt-4 w-fit mx-auto">
                 <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <FaReact
                     size={60}
@@ -215,7 +219,7 @@ export default function Home() {
                   React js
                 </h1>
               </div>
-              <div className="mt-4">
+              <div className="mt-4 w-fit mx-auto">
                 <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <SiNextdotjs
                     size={60}
@@ -226,7 +230,18 @@ export default function Home() {
                   Next js
                 </h1>
               </div>
-              <div className="mt-4">
+              <div className="mt-4 w-fit mx-auto">
+                <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
+                  <TbBrandTypescript
+                    size={60}
+                    className="text-[#61DBFB] group-hover:text-white"
+                  />
+                </div>
+                <h1 className="mt-2 font-bold text-3xl text-center text-white">
+                  TypeScript
+                </h1>
+              </div>
+              <div className="mt-4 w-fit mx-auto">
                 <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                   <IoLogoJavascript
                     size={60}
@@ -237,66 +252,64 @@ export default function Home() {
                   ES6 (Javascript)
                 </h1>
               </div>
-              <div className="mt-4">
-                <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
-                  <FaReact
-                    size={60}
-                    className="text-[#61DBFB] group-hover:text-white"
-                  />
-                </div>
-                <h1 className="mt-2 font-bold text-3xl text-center text-white">
-                  React
-                </h1>
-              </div>
             </div>
-
-            <div className="mt-6 flex flex-wrap justify-evenly w-full">
-              <div className="mt-4">
-                <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
-                  <FaReact
+            <div className="mt-6 w-full grid grid-cols-4 gap-4">
+              <div className="mt-4 w-fit mx-auto">
+                <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
+                  <TbBrandTailwind
                     size={60}
                     className="text-[#61DBFB] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
-                  React
+                  Tailwind css
                 </h1>
               </div>
-              <div className="mt-4">
+              <div className="mt-4 w-fit mx-auto">
                 <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
-                  <FaReact
+                  <BsBootstrapFill
                     size={60}
                     className="text-[#61DBFB] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
-                  React
+                  Bootstrap
                 </h1>
               </div>
-              <div className="mt-4">
+              <div className="mt-4 w-fit mx-auto">
                 <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
-                  <FaReact
+                  <IoLogoHtml5
                     size={60}
                     className="text-[#61DBFB] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
-                  React
+                  Html
                 </h1>
               </div>
-              <div className="mt-4">
+              <div className="mt-4 w-fit mx-auto">
                 <div className="group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
-                  <FaReact
+                  <IoLogoCss3
                     size={60}
                     className="text-[#61DBFB] group-hover:text-white"
                   />
                 </div>
                 <h1 className="mt-2 font-bold text-3xl text-center text-white">
-                  React
+                  Css
                 </h1>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="max-w-screen-2xl min-h-screen px-5 md:px-32  mx-auto flex items-cente">
+        <div className=" w-full ">
+          <div className=" text-2xl items-center justify-center text-center">
+            <h2 className="-mt-14 font-bold text-3xl text-white tracking-widest">
+              EXPERIENCE & <span className="text-[#ffb400]">EDUCATION</span>
+            </h2>
+          </div>
+          <div className="my-10">asdf</div>
         </div>
       </div>
     </main>
