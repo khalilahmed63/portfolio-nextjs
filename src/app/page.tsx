@@ -9,6 +9,7 @@ import { IoLogoHtml5 } from "react-icons/io";
 import { IoLogoCss3 } from "react-icons/io";
 import { TbBrandTypescript } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io";
+import Portfolio from '../components/Portfolio';
 import Image from "next/image";
 import Link from "next/link";
 
@@ -202,7 +203,7 @@ export default function Home() {
       <div className="max-w-screen-2xl min-h-screen px-5 md:px-32  mx-auto flex items-cente">
         <div className=" w-full ">
           <div className=" text-2xl items-center justify-center text-center">
-            <h2 className="-mt-14 font-bold text-3xl text-white tracking-widest">
+            <h2 className=" font-bold text-3xl text-white tracking-widest">
               MY <span className="text-[#ffb400]">SKILLS</span>
             </h2>
           </div>
@@ -383,6 +384,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+     <Portfolio />
     </main>
   );
 }
