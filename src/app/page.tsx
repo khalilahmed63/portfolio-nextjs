@@ -10,6 +10,7 @@ import { IoLogoCss3 } from "react-icons/io";
 import { TbBrandTypescript } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io";
 import Portfolio from '../components/Portfolio';
+import ContactMe from '../components/ContactMe';
 import Image from "next/image";
 import Link from "next/link";
 
@@ -385,6 +386,7 @@ export default function Home() {
         </div>
       </div>
      <Portfolio />
+     <ContactMe />
     </main>
   );
 }
