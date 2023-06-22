@@ -7,7 +7,7 @@ export default function ContactMe() {
     <div className="pt-20 max-w-screen-2xl min-h-screen px-5 md:px-32  mx-auto flex items-cente">
       <div className="w-full ">
         <div className="text-2xl items-center justify-center text-center">
-          <h2 className="pb-6 font-bold text-3xl text-white tracking-widest">
+          <h2 className="pb-6 font-bold text-3xl text-white tracking-widest drop-shadow-2xl">
             CONTACT <span className="text-[#ffb400]">ME</span>
           </h2>
         </div>
@@ -18,9 +18,10 @@ export default function ContactMe() {
                 (: DON&apos;T BE <span className="text-[#ffb400]"> SHY !</span>
               </h1>
               <p className="text-white">
-                Feel free to get in touch with me. I am always open to
-                discussing new Projects, creative ideas or opportunities to be
-                part of your vision.
+                I&lsquo;m open to discussing new projects, creative ideas, and
+                opportunities to be part of your vision. Let&lsquo;s connect and
+                explore possibilities together. Feel free to reach out for a
+                free consultation using the contact information below.
               </p>
               <div className="flex items-center mt-8">
                 <div className="">
@@ -33,9 +34,7 @@ export default function ContactMe() {
                   <h2 className=" font-bold text-xl text-white tracking-widest">
                     Address Point
                   </h2>
-                  <p className="text-white">
-                    Happy Homes Colony, Hyderabad Sindh, Pakistan .
-                  </p>
+                  <p className="text-white">Islamabad, Punjab, Pakistan .</p>
                 </div>
               </div>
               <div className="flex items-center mt-8">
@@ -55,7 +54,7 @@ export default function ContactMe() {
                 </div>
                 <div className="">
                   <h2 className=" font-bold text-xl text-white tracking-widest">
-                    Call Me
+                    Whatsapp
                   </h2>
                   <p className="text-white">+923070599766</p>
                 </div>

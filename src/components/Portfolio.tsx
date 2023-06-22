@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import PortfolioCard from "./PortfolioCard";
 
 export default function Portfolio() {
   return (
@@ -12,126 +13,12 @@ export default function Portfolio() {
         </div>
         <div className="my-10">
           <div className="grid grid-cols-3 gap-10">
-            <div className="rounded-xl group bg-white overflow-hidden shadow-lg shadow-gray-500 hover:scale-90 duration-300 hover:shadow-md hover:shadow-gray-500">
-              <a href="assets/img/work-1.jpg">
-                <div className="group-hover:scale-110 duration-300 overflow-hidden">
-                  <Image
-                    src="/assets/images/react.jpg"
-                    alt="image"
-                    width={400}
-                    height={400}
-                    className=""
-                  />
-                </div>
-              </a>
-              <div className=" p-4">
-                <h2 className="font-bold">Lorem impsum dolor</h2>
-                <div className="w-more mt-1 text-xs">
-                  <span className="w-ctegory">Web Design</span> /{" "}
-                  <span className="w-date">18 Sep. 2018</span>
-                </div>
-              </div>
-            </div>
-            <div className="rounded-xl group bg-white overflow-hidden shadow-lg shadow-gray-500 hover:scale-90 duration-300 hover:shadow-md hover:shadow-gray-500">
-              <a href="assets/img/work-1.jpg">
-                <div className="group-hover:scale-110 duration-300 overflow-hidden">
-                  <Image
-                    src="/assets/images/react.jpg"
-                    alt="image"
-                    width={400}
-                    height={400}
-                    className=""
-                  />
-                </div>
-              </a>
-              <div className=" p-4">
-                <h2 className="font-bold">Lorem impsum dolor</h2>
-                <div className="w-more mt-1 text-xs">
-                  <span className="w-ctegory">Web Design</span> /{" "}
-                  <span className="w-date">18 Sep. 2018</span>
-                </div>
-              </div>
-            </div>
-            <div className="rounded-xl group bg-white overflow-hidden shadow-lg shadow-gray-500 hover:scale-90 duration-300 hover:shadow-md hover:shadow-gray-500">
-              <a href="assets/img/work-1.jpg">
-                <div className="group-hover:scale-110 duration-300 overflow-hidden">
-                  <Image
-                    src="/assets/images/react.jpg"
-                    alt="image"
-                    width={400}
-                    height={400}
-                    className=""
-                  />
-                </div>
-              </a>
-              <div className=" p-4">
-                <h2 className="font-bold">Lorem impsum dolor</h2>
-                <div className="w-more mt-1 text-xs">
-                  <span className="w-ctegory">Web Design</span> /{" "}
-                  <span className="w-date">18 Sep. 2018</span>
-                </div>
-              </div>
-            </div>
-            <div className="rounded-xl group bg-white overflow-hidden shadow-lg shadow-gray-500 hover:scale-90 duration-300 hover:shadow-md hover:shadow-gray-500">
-              <a href="assets/img/work-1.jpg">
-                <div className="group-hover:scale-110 duration-300 overflow-hidden">
-                  <Image
-                    src="/assets/images/react.jpg"
-                    alt="image"
-                    width={400}
-                    height={400}
-                    className=""
-                  />
-                </div>
-              </a>
-              <div className=" p-4">
-                <h2 className="font-bold">Lorem impsum dolor</h2>
-                <div className="w-more mt-1 text-xs">
-                  <span className="w-ctegory">Web Design</span> /{" "}
-                  <span className="w-date">18 Sep. 2018</span>
-                </div>
-              </div>
-            </div>
-            <div className="rounded-xl group bg-white overflow-hidden shadow-lg shadow-gray-500 hover:scale-90 duration-300 hover:shadow-md hover:shadow-gray-500">
-              <a href="assets/img/work-1.jpg">
-                <div className="group-hover:scale-110 duration-300 overflow-hidden">
-                  <Image
-                    src="/assets/images/react.jpg"
-                    alt="image"
-                    width={400}
-                    height={400}
-                    className=""
-                  />
-                </div>
-              </a>
-              <div className=" p-4">
-                <h2 className="font-bold">Lorem impsum dolor</h2>
-                <div className="w-more mt-1 text-xs">
-                  <span className="w-ctegory">Web Design</span> /{" "}
-                  <span className="w-date">18 Sep. 2018</span>
-                </div>
-              </div>
-            </div>
-            <div className="rounded-xl group bg-white overflow-hidden shadow-lg shadow-gray-500 hover:scale-90 duration-300 hover:shadow-md hover:shadow-gray-500">
-              <a href="assets/img/work-1.jpg">
-                <div className="group-hover:scale-110 duration-300 overflow-hidden">
-                  <Image
-                    src="/assets/images/react.jpg"
-                    alt="image"
-                    width={400}
-                    height={400}
-                    className=""
-                  />
-                </div>
-              </a>
-              <div className=" p-4">
-                <h2 className="font-bold">Lorem impsum dolor</h2>
-                <div className="w-more mt-1 text-xs">
-                  <span className="w-ctegory">Web Design</span> /{" "}
-                  <span className="w-date">18 Sep. 2018</span>
-                </div>
-              </div>
-            </div>
+            <PortfolioCard />
+            <PortfolioCard />
+            <PortfolioCard />
+            <PortfolioCard />
+            <PortfolioCard />
+            <PortfolioCard />
           </div>
         </div>
       </div>
