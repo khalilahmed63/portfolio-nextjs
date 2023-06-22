@@ -2,29 +2,38 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { BsGithub } from "react-icons/bs";
-import { FaLinkedinIn, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+} from "react-icons/fa";
 
 export default function Hero() {
   return (
     <div className="max-w-screen-2xl min-h-screen px-5 md:px-32 mx-auto flex items-center">
       <div className="mt-10 sm:flex items-center justify-center">
-        <Image
-          src={"/assets/images/khalil-ahmed-1.jpg"}
-          alt="image"
-          width={400}
-          height={400}
-          className="hidden sm:block rounded-full shadow-xl hover:shadow-[#FFB100] hover:scale-95 shadow-black duration-500"
-        />
-         <Image
-          src={"/assets/images/khalil-ahmed-1.jpg"}
-          alt="image"
-          width={300}
-          height={300}
-          className="sm:hidden rounded-full shadow-xl hover:shadow-[#FFB100] hover:scale-95 shadow-black duration-500"
-        />
-        <div className="m-5 sm:m-10">
-          <h1 className="text-6xl font-bold text-[#FFB100]">Khalil ahmed.</h1>
-          <h1 className="text-6xl font-bold text-white">
+        <div className="w-full flex justify-center">
+          <Image
+            src={"/assets/images/khalil-ahmed-1.jpg"}
+            alt="image"
+            width={400}
+            height={400}
+            className="hidden sm:block rounded-full shadow-xl hover:shadow-[#FFB100] hover:scale-95 shadow-black duration-500"
+          />
+          <Image
+            src={"/assets/images/khalil-ahmed-1.jpg"}
+            alt="image"
+            width={300}
+            height={300}
+            className="sm:hidden rounded-full shadow-xl hover:shadow-[#FFB100] hover:scale-95 shadow-black duration-500"
+          />
+        </div>
+        <div className="mt-5 mx-0 sm:m-10">
+          <h1 className="text-3xl md:text-6xl font-bold text-[#FFB100]">
+            Khalil ahmed.
+          </h1>
+          <h1 className="text-3xl mdtext-6xl font-bold text-white">
             I&apos;m a react developer
           </h1>
           <p className="text-2xl text-gray-500 mt-4">

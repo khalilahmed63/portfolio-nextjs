@@ -12,7 +12,7 @@ export default function ContactMe() {
           </h2>
         </div>
         <div className="my-10">
-          <div className="flex pt-6">
+          <div className="sm:flex pt-6">
             <div className="w-full sm:w-[40%]">
               <h1 className="pb-6 font-bold text-3xl text-white tracking-widest">
                 (: DON&apos;T BE <span className="text-[#ffb400]"> SHY !</span>
@@ -60,7 +60,7 @@ export default function ContactMe() {
                 </div>
               </div>
             </div>
-            <div className="w-full pl-4 sm:w-[60%]">
+            <div className="w-full mt-10 sm:mt-0 sm:pl-4 sm:w-[60%]">
               <form action="#">
                 <div className="flex">
                   <input

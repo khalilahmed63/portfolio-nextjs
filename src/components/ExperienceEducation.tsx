@@ -11,8 +11,8 @@ export default function ExperienceEducation() {
         </div>
         <div className="my-10">
           <div className="md:flex">
-            <div className="w-[50%]">
-              <p className=" font-bold text-2xl text-white">.Education</p>
+            <div className="md:w-[50%]">
+              <p className=" font-bold text-2xl text-center md:text-left text-white">.Education</p>
               <div className="mt-16 pr-2 pb-2 border-b">
                 <p className=" font-bold text-base text-white">
                   BACHELOR OF COMPUTER SCIENCE
@@ -41,8 +41,8 @@ export default function ExperienceEducation() {
                 </p>
               </div>
             </div>
-            <div className="pl-5 w-[50%]">
-              <p className="font-bold text-2xl text-white">
+            <div className="mt-10 sm:mt-0 md:pl-5 md:w-[50%]">
+              <p className="font-bold text-2xl text-center md:text-left text-white">
                 .Professional experience
               </p>
               <div className="mt-16 pr-2 pb-2 border-b">
