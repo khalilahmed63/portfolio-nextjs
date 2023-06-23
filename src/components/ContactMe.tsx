@@ -12,8 +12,8 @@ export default function ContactMe() {
           </h2>
         </div>
         <div className="my-10">
-          <div className="sm:flex pt-6">
-            <div className="w-full sm:w-[40%]">
+          <div className="lg:flex pt-6">
+            <div className="w-full lg:w-[40%]">
               <h1 className="pb-6 font-bold text-3xl text-white tracking-widest">
                 (: DON&apos;T BE <span className="text-[#ffb400]"> SHY !</span>
               </h1>
@@ -60,28 +60,28 @@ export default function ContactMe() {
                 </div>
               </div>
             </div>
-            <div className="w-full mt-10 sm:mt-0 sm:pl-4 sm:w-[60%]">
+            <div className="w-full mt-10 lg:mt-0 lg:pl-4 lg:w-[60%]">
               <form action="#">
                 <div className="flex">
                   <input
                     type="text"
-                    className="shadow-lg shadow-black focus:shadow-black focus:shadow-md focus:outline-none duration-300 border-4 border-[#333B43] bg-[#45505B] w-[50%] p-2 rounded-full text-white"
+                    className="shadow-lg shadow-black focus:shadow-black outline-none focus:shadow-md duration-300 border-4 border-[#333B43] bg-[#45505B] w-[50%] p-2 rounded-full text-white"
                     placeholder="Enter your name"
                   />
                   <input
                     type="email"
-                    className="shadow-lg shadow-black focus:shadow-black focus:shadow-md focus:outline-none duration-300 border-4 border-[#333B43] bg-[#45505B] w-[50%] p-2 rounded-full text-white ml-4"
+                    className="shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 border-4 border-[#333B43] bg-[#45505B] w-[50%] p-2 rounded-full text-white ml-4"
                     placeholder="Enter your email"
                   />
                 </div>
                 <input
                   type="text"
-                  className="shadow-lg shadow-black focus:shadow-black focus:shadow-md focus:outline-none duration-300 border-4 border-[#333B43] bg-[#45505B] w-full p-2 mt-4 rounded-full text-white"
+                  className="shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 border-4 border-[#333B43] bg-[#45505B] w-full p-2 mt-4 rounded-full text-white"
                   placeholder="Your subject"
                 />
                 <textarea
                   rows={7}
-                  className="shadow-lg shadow-black focus:shadow-black focus:shadow-md focus:outline-none duration-300 first-letter border-4 border-[#333B43] bg-[#45505B] w-full p-2 mt-4 rounded-2xl text-white"
+                  className="shadow-lg shadow-black focus:shadow-black focus:shadow-md outline-none duration-300 first-letter border-4 border-[#333B43] bg-[#45505B] w-full p-2 mt-4 rounded-2xl text-white"
                   placeholder="Write your message here..."
                 />
                 <button
