@@ -15,7 +15,7 @@ export default function Skills() {
           </h2>
         </div>
         <div className="my-10">
-          <div className="mt-6 w-full sm:flex flex-wrap">
+          <div className="mt-6 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <div className="mt-4 w-fit mx-auto">
               <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                 <FaReact
@@ -60,8 +60,8 @@ export default function Skills() {
                 ES6 (Javascript)
               </h1>
             </div>
-          </div>
-          <div className="mt-6 w-full sm:flex flex-wrap">
+          {/* </div> */}
+          {/* <div className="mt-6 w-full sm:flex flex-wrap"> */}
             <div className="mt-4 w-fit mx-auto">
               <div className="w-fit mx-auto group border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-10 hover:bg-[#ffb200] duration-300">
                 <TbBrandTailwind
