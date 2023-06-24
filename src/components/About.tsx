@@ -3,19 +3,19 @@ import React from "react";
 export default function About() {
   return (
     <div className="max-w-screen-2xl min-h-screen px-5 md:px-32  mx-auto flex items-cente">
-      <div className="mt-10 w-full ">
+      <div className="mt-20 w-full ">
         <div className=" text-2xl items-center justify-center text-center">
-          <h1 className="text-gray-500 text-7xl font-bold tracking-widest">
+          <h1 className="text-gray-500 text-5xl md:text-7xl font-bold tracking-widest">
             RESUME
           </h1>
-          <h2 className="-mt-14 font-bold text-3xl text-white tracking-widest">
+          <h2 className="-mt-10 md:-mt-14 font-bold text-2xl md:text-3xl text-white tracking-widest">
             ABOUT <span className="text-[#ffb400]">ME</span>
           </h2>
         </div>
         <div className="my-20 sm:flex">
           <div className="w-full">
             <div className="">
-              <h3 className="text-3xl text-white font-bold mb-3">
+              <h3 className="text-2xl md:text-3xl text-white font-bold mb-3">
                 PERSONAL INFO
               </h3>
               <div className="mt-10">

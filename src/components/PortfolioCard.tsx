@@ -5,7 +5,7 @@ export default function PortfolioCard() {
   return (
     <a href="assets/img/work-1.jpg">
       <div className="rounded-xl group bg-white w-fit h-fit overflow-hidden shadow-md shadow-black hover:scale-105 duration-200">
-        <div className="group-hover:scale-100 duration-300 h-40 overflow-hidden">
+        <div className="group-hover:scale-100 duration-300 overflow-hidden">
           <Image
             src="/assets/images/react.jpg"
             alt="image"
