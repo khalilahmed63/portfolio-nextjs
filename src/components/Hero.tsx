@@ -11,8 +11,8 @@ import {
 
 export default function Hero() {
   return (
-    <div className="max-w-screen-2xl min-h-screen px-5 md:px-32 mx-auto flex items-center">
-      <div className="mt-10 sm:flex items-center justify-center">
+    <div className="max-w-screen-2xl min-h-screen px-5 md:px-10 lg:px-32 mx-auto flex items-center">
+      <div className="mt-10 lg:flex items-center justify-center">
         <div className="w-full flex justify-center">
           <Image
             src={"/assets/images/khalil-ahmed-1.jpg"}
@@ -42,12 +42,12 @@ export default function Hero() {
             building excellent software that improve the lives of those around
             me.
           </p>
-          <div className="flex justify-center md:justify-left">
+          <div className="flex justify-center md:justify-start">
             <button className="bg-[#FFB100] border-4 border-[#9A7318] shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-5 py-1 px-3 rounded-full duration-300 hover:scale-95">
               Download CV
             </button>
           </div>
-          <div className="mt-16 flex justify-center md:justify-left">
+          <div className="mt-16 flex justify-center md:justify-start">
             <div className="mr-8">
               <Link href={"https://github.com/khalilahmed63"} target="_blank">
                 <BsGithub

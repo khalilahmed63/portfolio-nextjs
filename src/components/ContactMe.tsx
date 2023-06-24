@@ -4,7 +4,7 @@ import { GoMail } from "react-icons/go";
 
 export default function ContactMe() {
   return (
-    <div className="pt-20 max-w-screen-2xl min-h-screen px-5 md:px-32  mx-auto flex items-cente">
+    <div className="pt-20 max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
       <div className="w-full ">
         <div className="text-2xl items-center justify-center text-center">
           <h2 className="pb-6 font-bold text-3xl text-white tracking-widest drop-shadow-2xl">
