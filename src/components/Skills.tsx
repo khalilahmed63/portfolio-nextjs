@@ -10,7 +10,7 @@ export default function Skills() {
     <div className="max-w-screen-2xl min-h-screen px-5 md:px-10 lg:px-32 mt-20 mx-auto flex items-cente">
       <div className="w-full">
         <div className=" text-2xl items-center justify-center text-center">
-          <h2 className=" font-bold text-2xl md:text-3xl text-white tracking-widest">
+          <h2 className=" font-bold text-xl md:text-2xl text-white tracking-widest">
             MY <span className="text-[#ffb400]">SKILLS</span>
           </h2>
         </div>
@@ -27,7 +27,7 @@ export default function Skills() {
                   className="md:hidden text-[#61DBFB] group-hover:text-white"
                 />
               </div>
-              <h1 className="mt-2 font-bold text-2xl md:text-3xl text-center text-white">
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
                 React js
               </h1>
             </div>
@@ -42,7 +42,7 @@ export default function Skills() {
                   className="md:hidden text-[#A243E8] group-hover:text-white"
                 />
               </div>
-              <h1 className="mt-2 font-bold text-2xl md:text-3xl text-center text-white">
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
                 Next js
               </h1>
             </div>
@@ -57,7 +57,7 @@ export default function Skills() {
                   className="md:hidden text-[#007acc] group-hover:text-white"
                 />
               </div>
-              <h1 className="mt-2 font-bold text-2xl md:text-3xl text-center text-white">
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
                 TypeScript
               </h1>
             </div>
@@ -72,7 +72,7 @@ export default function Skills() {
                   className="md:hidden text-[#F0DB4F] group-hover:text-white"
                 />
               </div>
-              <h1 className="mt-2 font-bold text-2xl md:text-3xl text-center text-white">
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
                 ES6 (Javascript)
               </h1>
             </div>
@@ -87,7 +87,7 @@ export default function Skills() {
                   className="md:hidden text-[#36B7F0] group-hover:text-white"
                 />
               </div>
-              <h1 className="mt-2 font-bold text-2xl md:text-3xl text-center text-white">
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
                 Tailwind css
               </h1>
             </div>
@@ -102,7 +102,7 @@ export default function Skills() {
                   className="md:hidden text-[#563d7c] group-hover:text-white"
                 />
               </div>
-              <h1 className="mt-2 font-bold text-2xl md:text-3xl text-center text-white">
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
                 Bootstrap
               </h1>
             </div>
@@ -117,7 +117,7 @@ export default function Skills() {
                   className="md:hidden text-[#e34c26] group-hover:text-white"
                 />
               </div>
-              <h1 className="mt-2 font-bold text-2xl md:text-3xl text-center text-white">
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
                 Html
               </h1>
             </div>
@@ -132,7 +132,7 @@ export default function Skills() {
                   className="md:hidden text-[#264de4] group-hover:text-white"
                 />
               </div>
-              <h1 className="mt-2 font-bold text-2xl md:text-3xl text-center text-white">
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
                 Css
               </h1>
             </div>
