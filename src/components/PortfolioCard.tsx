@@ -11,6 +11,14 @@ export default function PortfolioCard() {
             alt="image"
             width={400}
             height={400}
+            className="hidden lg:block"
+          />
+          <Image
+            src="/assets/images/react.jpg"
+            alt="image"
+            width={400}
+            height={300}
+            className="lg:hidden h-40"
           />
         </div>
         <div className="px-4 py-2">

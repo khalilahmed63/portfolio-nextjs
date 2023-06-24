@@ -24,8 +24,8 @@ export default function Hero() {
           <Image
             src={"/assets/images/khalil-ahmed-1.jpg"}
             alt="image"
-            width={200}
-            height={200}
+            width={300}
+            height={300}
             className="sm:hidden rounded-full shadow-xl hover:shadow-[#FFB100] hover:scale-95 shadow-black duration-500"
           />
         </div>
@@ -36,7 +36,7 @@ export default function Hero() {
           <h1 className="text-2xl sm:text-3xl md:text-6xl text-center md:text-left font-bold text-white">
             I&apos;m a react developer
           </h1>
-          <p className="text-sm sm:text-xl md:sm:text-2xl text-center md:text-left text-gray-500 mt-4 w-full">
+          <p className="text-lg sm:text-xl md:sm:text-2xl text-center md:text-left text-gray-500 mt-4 w-full">
             I&apos;m a Pakistan based Web developer and web designer focused on
             crafting clean & user-friendly experiences, I am passionate about
             building excellent software that improve the lives of those around
