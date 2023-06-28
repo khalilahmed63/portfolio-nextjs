@@ -18,40 +18,39 @@ export default function About() {
               PERSONAL INFO
             </h3>
             <div className="mt-10">
-              <div className="flex mb-10">
-                <p className="text-white font-bold w-[50%]">
+              <div className="sm:flex sm:mb-10">
+                <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
                   Name : <span className=" text-gray-400">Khalil ahmed</span>
                 </p>
 
-                <p className="text-white font-bold w-[50%]">
+                <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
                   Age : <span className=" text-gray-400">23</span>
                 </p>
               </div>
-              <div className="flex mb-10">
-                <p className="text-white font-bold w-[50%]">
-                  Freelance :<span className=" text-gray-400"> Avaliable</span>
+              <div className="sm:flex sm:mb-10">
+                <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
+                  Consultation : <span className=" text-gray-400">Free</span>
                 </p>
-
-                <p className="text-white font-bold w-[50%]">
-                  Phone :<span className=" text-gray-400"> +923070599766</span>
+                <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
+                  Freelance :<span className=" text-gray-400"> Avaliable</span>
                 </p>
               </div>
             </div>
-            <div className="">
-              <div className="flex mb-10">
-                <p className="text-white font-bold w-[50%]">
-                  Consultation : <span className=" text-gray-400">Free</span>
+            <div>
+              <div className="sm:flex sm:mb-10">
+                <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
+                  Address :<span className=" text-gray-400"> Islamabad, Pakistan </span>
                 </p>
-                <p className="text-white font-bold w-[50%]">
+                <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
                   Natoinality :
                   <span className=" text-gray-400"> Pakistani</span>
                 </p>
               </div>
-              <div className="flex mb-10">
-                <p className="text-white font-bold w-[50%]">
-                  Address :<span className=" text-gray-400"> Islamabad </span>
+              <div className="sm:flex sm:mb-10">
+                <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
+                  Phone :<span className=" text-gray-400"> +923070599766</span>
                 </p>
-                <p className="text-white font-bold w-[50%]">
+                <p className="text-white font-bold mb-10 sm:mb-0 sm:w-[50%]">
                   Language :
                   <span className=" text-gray-400">
                     English, Urdu, Hindi, Sindhi
