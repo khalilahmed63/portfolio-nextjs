@@ -9,8 +9,8 @@ export default function Skills() {
   return (
     <div className="max-w-screen-2xl min-h-screen px-5 md:px-10 lg:px-32 mt-20 mx-auto flex items-cente">
       <div className="w-full">
-        <div className=" text-2xl items-center justify-center text-center">
-          <h2 className=" font-bold text-3xl md:text-5xl tracking-widest font-outline-white-2 md:font-outline-white-4 italic font-[Neuropolitical] uppercase text-[#ffb200]">
+        <div className="text-2xl items-center justify-center text-center">
+          <h2 className="font-bold text-3xl md:text-5xl tracking-widest font-outline-white-2 md:font-outline-white-4 italic font-[Neuropolitical] uppercase text-[#ffb200]">
             MY SKILLS
           </h2>
         </div>
