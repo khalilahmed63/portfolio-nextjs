@@ -19,18 +19,18 @@ export default function Hero() {
             alt="image"
             width={400}
             height={400}
-            className="hidden sm:block rounded-full shadow-xl hover:shadow-[#FFB100] hover:scale-95 shadow-black duration-500"
+            className="hidden sm:block rounded-full shadow-xl hover:shadow-[#ffb400] hover:scale-95 shadow-black duration-500"
           />
           <Image
             src={"/assets/images/khalil-ahmed-1.jpg"}
             alt="image"
             width={300}
             height={300}
-            className="sm:hidden rounded-full shadow-xl hover:shadow-[#FFB100] hover:scale-95 shadow-black duration-500"
+            className="sm:hidden rounded-full shadow-xl hover:shadow-[#ffb400] hover:scale-95 shadow-black duration-500"
           />
         </div>
         <div className="mt-5 mx-0 sm:m-10">
-          <h1 className="text-2xl sm:text-3xl md:text-6xl text-center md:text-left font-bold text-[#FFB100]">
+          <h1 className="text-2xl sm:text-3xl md:text-6xl text-center md:text-left font-bold text-[#ffb400]">
             Khalil ahmed.
           </h1>
           <h1 className="text-2xl sm:text-3xl md:text-6xl text-center md:text-left font-bold text-white">
@@ -43,7 +43,7 @@ export default function Hero() {
             me.
           </p>
           <div className="flex justify-center md:justify-start">
-            <button className="bg-[#FFB100] border-4 border-[#9A7318] shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-5 py-1 px-3 rounded-full duration-300 hover:scale-95">
+            <button className="bg-[#ffb400] border-4 border-[#9A7318] shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-5 py-1 px-3 rounded-full duration-300 hover:scale-95">
               Download CV
             </button>
           </div>

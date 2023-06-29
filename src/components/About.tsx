@@ -61,30 +61,30 @@ export default function About() {
           </div>
           <div className="w-full">
             <div className="sm:flex">
-              <div className="w-full rounded p-5 sm:m-3 mb-4 border-2 border-gray-400">
-                <h1 className="pb-2 text-4xl font-bold text-[#FFB100] border-b-2 border-gray-400 ">
+              <div className="w-full rounded p-5 sm:m-3 sm:ml-0 mb-4 border-2 border-gray-400">
+                <h1 className="pb-2 text-4xl font-bold text-[#ffb400] border-b-2 border-gray-400 ">
                   2+
                 </h1>
                 <p className="pt-2  ml-[20px] text-white">
                   YEARS OF EXPERIENCE
                 </p>
               </div>
-              <div className="w-full rounded p-5 sm:m-3 mb-4 border-2 border-gray-400">
-                <h1 className="pb-2 text-4xl font-bold text-[#FFB100] border-b-2 border-gray-400 ">
+              <div className="w-full rounded p-5 sm:m-3 sm:mr-0 mb-4 border-2 border-gray-400">
+                <h1 className="pb-2 text-4xl font-bold text-[#ffb400] border-b-2 border-gray-400 ">
                   18+
                 </h1>
                 <p className="pt-2  ml-[20px] text-white">COMPLETED PROJECTS</p>
               </div>
             </div>
             <div className="sm:flex">
-              <div className="w-full rounded p-5 sm:m-3 mb-4 border-2 border-gray-400">
-                <h1 className="pb-2 text-4xl font-bold text-[#FFB100] border-b-2 border-gray-400 ">
+              <div className="w-full rounded p-5 sm:m-3 sm:ml-0 mb-4 border-2 border-gray-400">
+                <h1 className="pb-2 text-4xl font-bold text-[#ffb400] border-b-2 border-gray-400 ">
                   87+
                 </h1>
                 <p className="pt-2  ml-[20px] text-white">HAPPY COUSTOMERS</p>
               </div>
-              <div className="w-full rounded p-5 sm:m-3 mb-4 border-2 border-gray-400">
-                <h1 className="pb-2 text-4xl font-bold text-[#FFB100] border-b-2 border-gray-400 ">
+              <div className="w-full rounded p-5 sm:m-3 sm:mr-0 mb-4 border-2 border-gray-400">
+                <h1 className="pb-2 text-4xl font-bold text-[#ffb400] border-b-2 border-gray-400 ">
                   12+
                 </h1>
                 <p className="pt-2  ml-[20px] text-white">AWARDS WON</p>

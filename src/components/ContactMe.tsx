@@ -86,7 +86,7 @@ export default function ContactMe() {
                 />
                 <button
                   type="submit"
-                  className="bg-[#FFB100] border-4 border-[#9A7318] shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-3 py-1 px-3 rounded-full duration-300 hover:scale-95"
+                  className="bg-[#ffb400] border-4 border-[#9A7318] shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-3 py-1 px-3 rounded-full duration-300 hover:scale-95"
                 >
                   Send message
                 </button>
