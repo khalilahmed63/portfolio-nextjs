@@ -5,24 +5,23 @@ export default function About() {
     <div className="max-w-screen-2xl mt-20 min-h-screen px-5 md:px-10 lg:px-32 mx-auto flex items-cente">
       <div className="w-full ">
         <div className=" text-2xl items-center justify-center text-center">
-          <h1 className="text-gray-500 text-5xl md:text-7xl font-bold tracking-widest">
+          <h1 className="text-gray-500 text-6xl md:text-8xl font-bold tracking-widest">
             RESUME
           </h1>
-          <h2 className="-mt-10 md:-mt-14 font-bold text-2xl md:text-3xl text-white tracking-widest">
+          <h2 className="-mt-12 md:-mt-16 font-bold text-2xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200]">
             ABOUT <span className="text-[#ffb400]">ME</span>
           </h2>
         </div>
         <div className="my-20 lg:flex">
-          <div className="w-full">
-            <h3 className="text-2xl md:text-3xl text-white font-bold mb-3">
-              PERSONAL INFO
+          <div className="w-full text-center md:text-left">
+            <h3 className="text-2xl md:text-3xl text-white font-bold mb-3 ">
+              .PERSONAL INFO
             </h3>
             <div className="mt-10">
               <div className="sm:flex sm:mb-10">
                 <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
                   Name : <span className=" text-gray-400">Khalil ahmed</span>
                 </p>
-
                 <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
                   Age : <span className=" text-gray-400">23</span>
                 </p>
@@ -39,7 +38,8 @@ export default function About() {
             <div>
               <div className="sm:flex sm:mb-10">
                 <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
-                  Address :<span className=" text-gray-400"> Islamabad, Pakistan </span>
+                  Address :
+                  <span className=" text-gray-400"> Islamabad, Pakistan </span>
                 </p>
                 <p className="text-white font-bold mb-6 sm:mb-0 sm:w-[50%]">
                   Natoinality :

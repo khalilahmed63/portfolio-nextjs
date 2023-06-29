@@ -5,13 +5,13 @@ export default function ExperienceEducation() {
     <div className="max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
       <div className="w-full ">
         <div className="text-2xl items-center justify-center text-center">
-          <h2 className="font-bold text-3xl md:text-5xl tracking-widest font-outline-white-2 md:font-outline-white-4 font-[Neuropolitical] uppercase text-[#ffb200]">
+          <h2 className="font-bold text-3xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200]">
             EXPERIENCE & EDUCATION
           </h2>
         </div>
         <div className="my-10">
-          <div className="md:flex">
-            <div className="md:w-[50%]">
+          <div className="md:flex text-center md:text-left">
+            <div className="md:w-[50%] md:pr-10">
               <p className=" font-bold text-2xl text-center md:text-left text-white">
                 .Education
               </p>
@@ -43,7 +43,7 @@ export default function ExperienceEducation() {
                 </p>
               </div>
             </div>
-            <div className="mt-10 sm:mt-0 md:pl-5 md:w-[50%]">
+            <div className="mt-10 sm:mt-0 md:pl-10 md:w-[50%]">
               <p className="font-bold text-2xl text-center md:text-left text-white">
                 .Professional experience
               </p>

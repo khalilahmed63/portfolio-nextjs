@@ -7,7 +7,7 @@ export default function ContactMe() {
     <div className="pt-20 max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
       <div className="w-full ">
         <div className="text-2xl items-center justify-center text-center">
-        <h2 className="font-bold text-3xl md:text-5xl tracking-widest font-outline-white-2 md:font-outline-white-4 font-[Neuropolitical] uppercase text-[#ffb200]">
+        <h2 className="font-bold text-3xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200]">
             CONTACT ME
           </h2>
         </div>
@@ -86,7 +86,7 @@ export default function ContactMe() {
                 />
                 <button
                   type="submit"
-                  className="bg-[#ffb400] border-4 border-[#9A7318] shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-3 py-1 px-3 rounded-full duration-300 hover:scale-95"
+                  className="bg-[#ffb400] border-4 border-[#9A7318] text-white shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-3 py-1 px-3 rounded-full duration-300 hover:scale-95"
                 >
                   Send message
                 </button>
