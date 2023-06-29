@@ -7,7 +7,7 @@ export default function ContactMe() {
     <div className="pt-20 max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
       <div className="w-full ">
         <div className="text-2xl items-center justify-center text-center">
-        <h2 className="font-bold text-3xl md:text-5xl tracking-widest font-outline-white-2 md:font-outline-white-4 italic font-[Neuropolitical] uppercase text-[#ffb200]">
+        <h2 className="font-bold text-3xl md:text-5xl tracking-widest font-outline-white-2 md:font-outline-white-4 font-[Neuropolitical] uppercase text-[#ffb200]">
             CONTACT ME
           </h2>
         </div>
@@ -50,7 +50,7 @@ export default function ContactMe() {
               </div>
               <div className="flex items-center mt-8">
                 <div className="">
-                  <BsWhatsapp className="text-[#ffb400] mr-4" size={40} />
+                  <BsWhatsapp className="text-[#ffb400] mr-4" size={35} />
                 </div>
                 <div className="">
                   <h2 className=" font-bold text-xl text-white tracking-widest">

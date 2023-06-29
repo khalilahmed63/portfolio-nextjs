@@ -30,10 +30,10 @@ export default function Hero() {
           />
         </div>
         <div className="mt-5 mx-0 sm:m-10">
-          <h1 className="text-2xl sm:text-3xl md:text-6xl text-center md:text-left font-bold text-[#ffb400]">
+          <h1 className="font-bold text-3xl md:text-5xl tracking-widest font-outline-white-2 md:font-outline-white-4 font-[Neuropolitical] uppercase text-[#ffb200]">
             Khalil ahmed.
           </h1>
-          <h1 className="text-2xl sm:text-3xl md:text-6xl text-center md:text-left font-bold text-white">
+          <h1 className="font-bold text-3xl md:text-5xl tracking-widest font-outline-2 md:font-outline-4 font-[Neuropolitical] uppercase text-white text-center">
             I&apos;m a react developer
           </h1>
           <p className="text-lg sm:text-xl md:sm:text-2xl text-center md:text-left text-gray-500 mt-4 w-full">
