@@ -48,6 +48,13 @@ export default function ExperienceEducation() {
                 .Professional experience
               </p>
               <div className="mt-16 pr-2 border-b">
+                <p className=" font-bold text-base text-white">Poulta</p>
+                <p className=" text-base text-gray-500">june-2022 - november-2022</p>
+                <p className="mt-6 mb-2 text-base text-white">
+                  React Developer
+                </p>
+              </div>
+              <div className="mt-16 pr-2 border-b">
                 <p className=" font-bold text-base text-white">
                   (HIST) Hidaya Institute of Science & technology
                 </p>
@@ -61,13 +68,6 @@ export default function ExperienceEducation() {
                 <p className=" text-base text-gray-500">Aug-2020 - jan-2021</p>
                 <p className="mt-6 mb-2 text-base text-white">
                   Front-end Web Developer
-                </p>
-              </div>
-              <div className="mt-16 pr-2 border-b">
-                <p className=" font-bold text-base text-white">Poulta</p>
-                <p className=" text-base text-gray-500">2018 - 2021</p>
-                <p className="mt-6 mb-2 text-base text-white">
-                  React Developer
                 </p>
               </div>
             </div>
