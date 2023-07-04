@@ -48,8 +48,19 @@ export default function ExperienceEducation() {
                 .Professional experience
               </p>
               <div className="mt-16 pr-2 border-b">
+                <p className=" font-bold text-base text-white">
+                  Newtown IT Services NSW Australia
+                </p>
+                <p className=" text-base text-gray-500">desc-2022 - continue...</p>
+                <p className="mt-6 mb-2 text-base text-white">
+                  React Developer
+                </p>
+              </div>
+              <div className="mt-16 pr-2 border-b">
                 <p className=" font-bold text-base text-white">Poulta</p>
-                <p className=" text-base text-gray-500">june-2022 - november-2022</p>
+                <p className=" text-base text-gray-500">
+                  june-2022 - november-2022
+                </p>
                 <p className="mt-6 mb-2 text-base text-white">
                   React Developer
                 </p>
