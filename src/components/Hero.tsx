@@ -29,7 +29,7 @@ export default function Hero() {
             className="sm:hidden rounded-full shadow-xl hover:shadow-[#ffb400] hover:scale-95 shadow-black duration-500"
           />
         </div>
-        <div className="mt-5 mx-0 sm:my-10">
+        <div className="mt-5 mx-0 ml-5 sm:my-10">
           <h1 className="text-center md:text-left font-bold text-3xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200]">
             Khalil ahmed.
           </h1>
