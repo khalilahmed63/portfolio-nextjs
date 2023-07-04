@@ -30,7 +30,7 @@ export default function Hero() {
           />
         </div>
         <div className="mt-5 mx-0 sm:my-10">
-          <h1 className="font-bold text-3xl md:text-4xl tracking-widest font-outline-white-2  font-[Neuropolitical] uppercase text-[#ffb200]">
+          <h1 className="text-center md:text-left font-bold text-3xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200]">
             Khalil ahmed.
           </h1>
           <h1 className="font-bold text-3xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200] text-center md:text-left">
