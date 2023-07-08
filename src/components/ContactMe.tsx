@@ -34,7 +34,7 @@ export default function ContactMe() {
                   <h2 className=" font-bold text-xl text-white tracking-widest">
                     Address Point
                   </h2>
-                  <p className="text-white">Islamabad, Punjab, Pakistan .</p>
+                  <p className="text-white">G-10, Islamabad, Pakistan .</p>
                 </div>
               </div>
               <div className="flex items-center mt-8">
