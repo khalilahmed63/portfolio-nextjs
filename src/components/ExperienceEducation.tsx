@@ -5,8 +5,8 @@ export default function ExperienceEducation() {
     <div className="max-w-screen-2xl min-h-screen px-5 mt-20 md:px-10 lg:px-32 mx-auto flex items-cente">
       <div className="w-full ">
         <div className="text-2xl items-center justify-center text-center">
-          <h2 className="font-bold text-3xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200]">
-            EXPERIENCE & EDUCATION
+          <h2 className="font-bold text-3xl md:text-4xl tracking-widest uppercase text-white">
+            EXPERIENCE & <span className="text-[#ffb200]"> EDUCATION</span>
           </h2>
         </div>
         <div className="my-10">
@@ -51,7 +51,9 @@ export default function ExperienceEducation() {
                 <p className=" font-bold text-base text-white">
                   Newtown IT Services NSW Australia
                 </p>
-                <p className=" text-base text-gray-500">desc-2022 - continue...</p>
+                <p className=" text-base text-gray-500">
+                  desc-2022 - continue...
+                </p>
                 <p className="mt-6 mb-2 text-base text-white">
                   React Developer
                 </p>

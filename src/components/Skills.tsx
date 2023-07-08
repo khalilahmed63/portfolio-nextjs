@@ -10,8 +10,8 @@ export default function Skills() {
     <div className="max-w-screen-2xl min-h-screen px-5 md:px-10 lg:px-32 mt-20 mx-auto flex items-cente">
       <div className="w-full">
         <div className="text-2xl items-center justify-center text-center">
-          <h2 className="font-bold text-3xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200]">
-            MY SKILLS
+          <h2 className="font-bold text-3xl md:text-4xl tracking-widest uppercase text-white">
+            MY <span className="text-[#ffb200]"> SKILLS</span>
           </h2>
         </div>
         <div className="my-10">

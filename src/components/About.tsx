@@ -5,10 +5,10 @@ export default function About() {
     <div className="max-w-screen-2xl mt-20 min-h-screen px-5 md:px-10 lg:px-32 mx-auto flex items-cente">
       <div className="w-full ">
         <div className=" text-2xl items-center justify-center text-center">
-          <h1 className="text-gray-500 text-6xl md:text-8xl font-bold tracking-widest">
+          <h1 className="text-[#45505B] text-6xl md:text-8xl font-bold tracking-widest select-none">
             RESUME
           </h1>
-          <h2 className="-mt-12 md:-mt-16 font-bold text-2xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200]">
+          <h2 className="-mt-12 md:-mt-16 font-bold text-2xl md:text-4xl tracking-widest uppercase text-white">
             ABOUT <span className="text-[#ffb400]">ME</span>
           </h2>
         </div>

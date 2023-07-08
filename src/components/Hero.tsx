@@ -30,13 +30,13 @@ export default function Hero() {
           />
         </div>
         <div className="mt-5 mx-0 ml-5 sm:my-10">
-          <h1 className="text-center md:text-left font-bold text-3xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200]">
+          <h1 className="text-center md:text-left font-bold mb-4 text-3xl md:text-5xl tracking-widest uppercase text-[#ffb200]">
             Khalil ahmed.
           </h1>
-          <h1 className="font-bold text-3xl md:text-4xl tracking-widest font-outline-white-2 font-[Neuropolitical] uppercase text-[#ffb200] text-center md:text-left">
+          <h1 className="font-bold text-3xl md:text-5xl tracking-widest uppercase text-white text-center md:text-left">
             I&apos;m a react developer
           </h1>
-          <p className="text-lg sm:text-xl md:sm:text-2xl text-center md:text-left text-gray-500 text-[#C6CDDC] mt-4 w-full">
+          <p className="text-lg sm:text-xl md:sm:text-2xl text-center md:text-left  text-[#C6CDDC] mt-4 w-full">
             I&apos;m a Pakistan based Web developer and web designer focused on
             crafting clean & user-friendly experiences, I am passionate about
             building excellent software that improve the lives of those around
