@@ -45,7 +45,7 @@ export default function ContactMe() {
                   <h2 className=" font-bold text-xl text-white tracking-widest">
                     Mail Me
                   </h2>
-                  <p className="text-white">panhwarkhalilahmed@gmail.com</p>
+                  <p className="text-white">me@khalilahmed.dev</p>
                 </div>
               </div>
               <div className="flex items-center mt-8">
