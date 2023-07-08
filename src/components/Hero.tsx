@@ -43,9 +43,11 @@ export default function Hero() {
             me.
           </p>
           <div className="flex justify-center md:justify-start">
-            <button className="bg-[#ffb400] border-4 border-[#9A7318] text-white shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-5 py-1 px-3 rounded-full duration-300 hover:scale-95">
-              Download CV
-            </button>
+            <Link href={"/KHALIL-REACTDEVELOPER-CV.pdf"} target="_blank">
+              <button className="bg-[#ffb400] border-4 border-[#9A7318] text-white shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-5 py-1 px-3 rounded-full duration-300 hover:scale-95">
+                Download CV
+              </button>
+            </Link>
           </div>
           <div className="mt-16 flex justify-center md:justify-start">
             <div className="mr-8">
