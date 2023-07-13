@@ -37,15 +37,17 @@ export default function Hero() {
             I&apos;m a react developer
           </h1>
           <p className="text-lg sm:text-xl md:sm:text-2xl text-center md:text-left  text-[#C6CDDC] mt-4 w-full">
-            I&apos;m a Pakistan based Web developer and web designer focused on
-            crafting clean & user-friendly experiences, I am passionate about
-            building excellent software that improve the lives of those around
-            me.
+            I&apos;m a Islamabad based Web developer focused on crafting clean &
+            user-friendly experience with latest technology like{" "}
+            <span className="text-[#ffb400]"> React</span> &{" "}
+            <span className="text-[#ffb400]"> Nextjs</span>, I am passionate
+            about building excellent software that improve the lives of those
+            around me.
           </p>
           <div className="flex justify-center md:justify-start">
             <Link href={"/KHALIL-REACTDEVELOPER-CV.pdf"} target="_blank">
               <button className="bg-[#ffb400] border-4 border-[#9A7318] text-white shadow-xl shadow-black hover:shadow-md hover:shadow-black mt-5 py-1 px-3 rounded-full duration-300 hover:scale-95">
-                Download CV
+                View Resume
               </button>
             </Link>
           </div>

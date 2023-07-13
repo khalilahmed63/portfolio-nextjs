@@ -1,9 +1,14 @@
 import React from "react";
-import { BsBootstrapFill } from "react-icons/bs";
+import { BsBootstrapFill, BsGithub } from "react-icons/bs";
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
-import { SiNextdotjs } from "react-icons/si";
-import { TbBrandTypescript, TbBrandTailwind } from "react-icons/tb";
+import { SiNextdotjs, SiSass } from "react-icons/si";
+import {
+  TbBrandTypescript,
+  TbBrandTailwind,
+  TbBrandMantine,
+} from "react-icons/tb";
+import { BsGit } from "react-icons/bs";
 
 export default function Skills() {
   return (
@@ -134,6 +139,66 @@ export default function Skills() {
               </div>
               <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
                 Css
+              </h1>
+            </div>
+            <div className="mt-4 w-fit mx-auto">
+              <div className="w-fit mx-auto group border-4 md:border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-6 md:p-10 hover:bg-[#ffb200] duration-300">
+                <BsGit
+                  size={60}
+                  className="hidden md:block text-[#e34c26] group-hover:text-white"
+                />
+                <BsGit
+                  size={35}
+                  className="md:hidden text-[#e34c26] group-hover:text-white"
+                />
+              </div>
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
+                Git
+              </h1>
+            </div>
+            <div className="mt-4 w-fit mx-auto">
+              <div className="w-fit mx-auto group border-4 md:border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-6 md:p-10 hover:bg-[#ffb200] duration-300">
+                <TbBrandMantine
+                  size={60}
+                  className="hidden md:block text-[#3092E4] group-hover:text-white"
+                />
+                <TbBrandMantine
+                  size={35}
+                  className="md:hidden text-[#3092E4] group-hover:text-white"
+                />
+              </div>
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
+                Mantine
+              </h1>
+            </div>
+            <div className="mt-4 w-fit mx-auto">
+              <div className="w-fit mx-auto group border-4 md:border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-6 md:p-10 hover:bg-[#ffb200] duration-300">
+                <SiSass
+                  size={60}
+                  className="hidden md:block text-[#C36192] group-hover:text-white"
+                />
+                <SiSass
+                  size={35}
+                  className="md:hidden text-[#C36192] group-hover:text-white"
+                />
+              </div>
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
+                Sass
+              </h1>
+            </div>
+            <div className="mt-4 w-fit mx-auto">
+              <div className="w-fit mx-auto group border-4 md:border-8 border-[#ffb200] hover:border-[#9A7318] rounded-full p-6 md:p-10 hover:bg-[#ffb200] duration-300">
+                <BsGithub
+                  size={60}
+                  className="hidden md:block text-white  group-hover:text-white"
+                />
+                <BsGithub
+                  size={35}
+                  className="md:hidden  text-white  group-hover:text-white"
+                />
+              </div>
+              <h1 className="mt-2 font-bold text-xl md:text-2xl text-center text-white">
+                Github
               </h1>
             </div>
           </div>
